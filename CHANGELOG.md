@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 - Node validation classes (#73442)
+- DB table columns listing method to menu and node resource models (#70197)
+- Menu YAML import/export feature (#70197)
 
 ### Changed
 - Improve node product validation error message on menu save (#73442)
@@ -30,8 +32,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Change imported menu model to API data interface in menu admin controller save action (#71279)
 - Move menu admin controller save action `execute` method current nodes list code to a separate method (#71279)
 - Replace existing nodes `in_array` check with `isset` in menu admin controller save action `execute` method (#71279)
+<<<<<<< HEAD
 - Documentation to clarify how to add a new node type (#69, #69072)
 - Render some of vue components list on server side to improve process of adding a new node type (#69, #69072)
+=======
+- Make menu CSS class field optional in menu admin edit page (#70197)
+>>>>>>> feature/70197
 
 ### Fixed
 - Prevent menu stores save if there are no store changes (#115, #70191)
